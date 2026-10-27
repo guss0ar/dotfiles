@@ -13,18 +13,18 @@ set tabstop=6
 set shiftwidth=6
 
 set termguicolors
-colorscheme monokai
+colorscheme vim
 set background=dark
 syntax on
 
 set noshowmode
 
-call plug#begin()
+"call plug#begin()
 
-Plug 'vim-airline/vim-airline'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'neovim/nvim-lspconfig'
-Plug 'm4xshen/autoclose.nvim'
-Plug 'mg979/vim-visual-multi'
+"Plug 'vim-airline/vim-airline'
+"Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+"Plug 'neovim/nvim-lspconfig'
+"Plug 'm4xshen/autoclose.nvim'
+"Plug 'mg979/vim-visual-multi'
 
-call plug#end()
+"call plug#end()
